@@ -7,7 +7,7 @@ const Header = () => {
         color: "red"
     }
     return (
-        <nav>
+        <nav style={{ margin: '5px' }}>
             <NavLink activeStyle={activeStyle} to="/home">Home</NavLink>
 
             <NavLink activeStyle={activeStyle} to="/friends">Friends</NavLink>
@@ -16,6 +16,7 @@ const Header = () => {
 
             <NavLink activeStyle={activeStyle} to="/about/culture">Culture</NavLink>
 
+            <NavLink activeStyle={activeStyle} to='/posts'>Posts</NavLink>
 
         </nav>
     );

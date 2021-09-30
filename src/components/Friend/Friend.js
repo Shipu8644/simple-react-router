@@ -22,11 +22,11 @@ const Friend = (props) => {
             <br />
             <br />
             <NavLink to={`/friend/${id}`}>
-                <button style={{ fontSize: '20px', cursor: 'pointer' }}>Visit Me</button>
+                <button style={{ fontSize: '20px', cursor: 'pointer' }}>Visit Me (using Link or NavLink)</button>
             </NavLink>
             <br />
             <br />
-            <button onClick={handleFriendClick} style={{ fontSize: '20px', cursor: 'pointer' }}>Visit Mehandle</button>
+            <button onClick={handleFriendClick} style={{ fontSize: '20px', cursor: 'pointer' }}>Visit Me (usinghandle)</button>
 
         </div>
     );
